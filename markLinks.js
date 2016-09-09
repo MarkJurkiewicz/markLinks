@@ -1,3 +1,10 @@
+document.addEventListener("DOMContentLoaded", function(event) {
+    timeStamp();
+    viewTime();
+    handlers();
+
+});
+
 var timeStamp = {
 
     getQueryVariable : function () {
